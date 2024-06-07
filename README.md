@@ -1,26 +1,24 @@
-Catlayst NoSQL Database - Early Access
+# Catalyst NoSQL Database - Early Access
 
-NoSQL is currently only available in the early access mode. 
+NoSQL is currently only available in the early access mode.
 
-You will need to install a beta version of the Catalyst CLI to serve or deploy functions 
-with NoSQL. The details for this are given below. 
+You will need to install a beta version of the Catalyst CLI to serve or deploy functions with NoSQL. The details for this are given below.
 
-ZCatalyst-CLI  
-- VERSION: v1.18.0-beta.0  
-- NPM LINK: https://www.npmjs.com/package/zcatalyst-cli/v/1.18.0-beta.0  
+## ZCatalyst-CLI-Beta
 
-Installation Procedure: 
-npm i -g zcatalyst-cli@beta 
+- **Version:** v1.18.0-beta.0
+- **NPM Link:** [zcatalyst-cli v1.18.0-beta.0](https://www.npmjs.com/package/zcatalyst-cli/v/1.18.0-beta.0)
 
-Beta Node.js SDK:
-You will need to install the 
-beta version of the Node.js SDK. The details are given below: 
+### Installation Procedure:
+```sh
+npm i -g zcatalyst-cli@beta
+```
 
-Node.js SDK​
-​
-- VERSION: v3.0.0-beta.1 ​
-​
-- NPM LINK: https://www.npmjs.com/package/zcatalyst-sdk-node/v/3.0.0-beta.1 
+## Node.js Beta SDK
+- **Version:** v3.0.0-beta.1
+- **NPM Link:** [zcatalyst-cli v1.18.0-beta.0](https://www.npmjs.com/package/zcatalyst-sdk-node/v/3.0.0-beta.1)
 
-Installation Procedure: 
-npm install zcatalyst-sdk-node@3.0.0-beta.1 
+### Installation Procedure:
+```sh
+npm install zcatalyst-sdk-node@3.0.0-beta.1
+```
