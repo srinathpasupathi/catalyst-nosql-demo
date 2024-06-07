@@ -1,0 +1,44 @@
+[debug] [2024-06-07T06:27:56.882Z] : 
+[debug] [2024-06-07T06:27:56.882Z] : ----------------------------------------------------------------------
+[debug] [2024-06-07T06:27:56.882Z] : Command:      /Users/srinath-4774/.nvm/versions/node/v16.20.2/bin/node /Users/srinath-4774/.nvm/versions/node/v16.20.2/bin/catalyst serve
+[debug] [2024-06-07T06:27:56.882Z] : CLI Version:  1.18.0-beta.0
+[debug] [2024-06-07T06:27:56.883Z] : Platform:     darwin
+[debug] [2024-06-07T06:27:56.883Z] : Node Version: v16.20.2
+[debug] [2024-06-07T06:27:56.883Z] : Time:         Fri Jun 07 2024 11:57:56 GMT+0530 (India Standard Time)
+[debug] [2024-06-07T06:27:56.883Z] : ----------------------------------------------------------------------
+[debug] [2024-06-07T06:27:56.884Z] : 
+[debug] [2024-06-07T06:27:57.276Z] : > authorizing via signed-in user option
+[debug] [2024-06-07T06:27:57.276Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2024-06-07T06:27:57.282Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2628000002823174 
+
+[debug] [2024-06-07T06:27:58.039Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 07 Jun 2024 06:27:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=be7f363f-00e6-4686-8e3a-1414e993f9d7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=be7f363f-00e6-4686-8e3a-1414e993f9d7;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-07T06:27:58.044Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2628000002823174/environment 
+
+[debug] [2024-06-07T06:27:58.740Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 07 Jun 2024 06:27:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=d4f39b67-cd5a-4ccf-af60-1501344e4306;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d4f39b67-cd5a-4ccf-af60-1501344e4306;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-07T06:27:58.858Z] : Build folder already exists, starting cleanup
+[debug] [2024-06-07T06:28:49.352Z] : 
+[debug] [2024-06-07T06:28:49.353Z] : ----------------------------------------------------------------------
+[debug] [2024-06-07T06:28:49.353Z] : Command:      /Users/srinath-4774/.nvm/versions/node/v16.20.2/bin/node /Users/srinath-4774/.nvm/versions/node/v16.20.2/bin/catalyst serve
+[debug] [2024-06-07T06:28:49.353Z] : CLI Version:  1.18.0-beta.0
+[debug] [2024-06-07T06:28:49.353Z] : Platform:     darwin
+[debug] [2024-06-07T06:28:49.353Z] : Node Version: v16.20.2
+[debug] [2024-06-07T06:28:49.358Z] : Time:         Fri Jun 07 2024 11:58:49 GMT+0530 (India Standard Time)
+[debug] [2024-06-07T06:28:49.358Z] : ----------------------------------------------------------------------
+[debug] [2024-06-07T06:28:49.358Z] : 
+[debug] [2024-06-07T06:28:49.723Z] : > authorizing via signed-in user option
+[debug] [2024-06-07T06:28:49.723Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2024-06-07T06:28:49.729Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2628000002823174 
+
+[debug] [2024-06-07T06:28:50.412Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 07 Jun 2024 06:28:50 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=18f3c86f-303a-4c3f-b382-a1a1909af80e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=18f3c86f-303a-4c3f-b382-a1a1909af80e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-07T06:28:50.416Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/2628000002823174/environment 
+
+[debug] [2024-06-07T06:28:51.044Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 07 Jun 2024 06:28:51 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=22cf30a2-71ab-4080-abed-0ac77f033618;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=22cf30a2-71ab-4080-abed-0ac77f033618;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-07T06:28:51.187Z] : Build folder already exists, starting cleanup
